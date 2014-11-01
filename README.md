@@ -14,6 +14,9 @@ or bower (source and distribution files only, no tests or build tasks):
 
     bower install pron
 
+Works with RequireJS, CommonJS implementations.
+To use in standard jQuery in the browser just load the pron.js in either the dist (minified) or src folder.
+
 Usage
 ----------
 
