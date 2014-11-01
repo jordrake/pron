@@ -1,0 +1,15 @@
+{
+  "name": "pron",
+  "version": "0.1.0",
+  "main": "dist/pron.js",
+  "dependencies": {
+    "jquery": ">= 1.11.x"
+  },
+  "ignore": [
+    ".jshintrc",
+    ".gitignore",
+    "Gulpfile.js",
+    "package.json",
+    "runner.html"
+  ]
+}
