@@ -24,7 +24,7 @@ Pron has been developed to support jQuery event syntax as much as possible with 
 
 **Single event:**
 
-    $('body').pron('event1).then(function(){ ... });
+    $('body').pron('event1').then(function(){ ... });
 
 The promise would resolve when *event1* is triggered.
 
@@ -42,4 +42,4 @@ This takes comma seperate event strings (you can even use multiple optional even
 
     $('body').pron('event1','event2').then(function(){ ... });
 
-The promise would resolve when both *event1* **and** *event2* and triggered.
+The promise would resolve when both *event1* **and** *event2* have been triggered.
